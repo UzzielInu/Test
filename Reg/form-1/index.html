@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Servicio Social</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body>
+
+		<!-- Top menu -->
+		<nav class="navbar navbar-inverse navbar-no-bg" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Registro de Solicitud de Servicio Social</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="top-navbar-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<span >
+								Recuerda visitar
+							</span> 
+							<!-- <a href="http://www.uv.mx/fei/"><strong>Feibook</strong></a> 
+							<span class="li-text"> -->
+								nuestras redes sociales 
+							</span> 
+							<span class="li-social">
+								<a href="https://www.facebook.com/FEIUV/"><i class="fa fa-facebook"></i></a> 
+								<a href="https://twitter.com/feibook1"><i class="fa fa-twitter"></i></a> 
+								<a href="https://login.live.com"><i class="fa fa-envelope"></i></a> 
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		 <!-- Close Top Menu -->
+
+        <!-- Top content -->
+        <div class="top-content">
+        	
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 text">
+                            <h1>Registro de Solicitud de <strong>Servicio Social</strong></h1>
+                            <div class="description">
+                            	<p>
+	                            	<br><br>Regístrate para obtener un lugar dónde realizar tu servicio social. <br><br> Posterior al registro, verás las opciones que puedes elegir (Deberás elegir 3), y dependiendo del número de aspirantes y tú promedio, serás asignado.<br><br>Cualquier duda o aclaración puedes dirigirte a la <a href="https://www.outlook.com"><u> Administración de SS y ER</u></a> donde podrán apoyarte.
+                            	</p>
+                            </div>
+
+                            
+                        </div>
+                        <div class="col-sm-6 form-box">
+                        	<div class="form-top">
+                        		<div class="form-top-left">
+                        			<h3>Registro de Datos</h3>
+                            		<p>Introduce la información requerida: </p>
+                        		</div>
+                        		<div class="form-top-right">
+                        			<i class="fa fa-file-text"></i>
+                        		</div>
+                            </div>
+                            <div class="form-bottom">
+			                    <form method="post" action="conexion.php" role="form" class="registration-form">
+			                    	
+			                    	<div class="form-group">
+			                        	<label class="sr-only" for="form-Matricula">Matrícula</label>
+			                        	<input type="text" required="" maxlength="9" name="Matricula" placeholder="Matrícula" class="form-Matricula form-control  input-md" id="Matricula">
+			                        </div>
+			                        <div class="form-group">
+			                    		<label class="sr-only" for="form-Nombres">Nombres</label>
+			                        	<input type="text" required="" required="" maxlength="55" name="Nombres" placeholder="Nombre(s)" class="form-Nombres form-control input-md" id="Nombres">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-Apellidos">Apellidos</label>
+			                        	<input type="text" required="" name="Apellidos" placeholder="Apellidos" class="form-Apellidos form-control input-md" id="Apellidos">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-telefono">Teléfono</label>
+			                        	<input type="text" required="" name="Telefono" placeholder="Teléfono" class="form-telefono form-control input-md" id="Telefono">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-email">Email</label>
+			                        	<input type="email" required="" name="Email" placeholder="E-mail" class="form-email form-control input-md" id="Email">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-Semestre">Semestre</label>
+			                        	<input type="text" required="" name="Semestre" placeholder="Semestre" class="form-Semestre form-control" id="Semestre">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-Promedio">Promedio</label>
+			                        	<input type="text" required="" name="Promedio" placeholder="Promedio Aprox." class="form-Promedio form-control input-md" id="Promedio">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-Creditos">Créditos</label>
+			                        	<input type="text" required="" name="Creditos" placeholder="Creditos Cursados" class="form-Creditos form-control input-md" id="Creditos">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-Habilidades">Habilidades</label>
+			                        	<textarea name="Habilidades" required="" placeholder="Habilidades e Intereses" 
+			                        				class="form-Habilidades form-control input-md" id="Habilidades"></textarea>
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-Experiencias">Experiencias</label>
+			                        	<textarea name="Experiencias" required="" placeholder="Experiencias Educativas a Cursar" 
+			                        				class="form-Experiencias form-control input-md" id="Experiencias"></textarea>
+			                        </div>
+			                        <button type="submit" class="btn" name="button"> <i class="fa fa-floppy-o "></i>  Registrar</button>
+			                    </form>
+		                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+    </body>
+
+</html>
